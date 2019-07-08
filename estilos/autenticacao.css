@@ -1,0 +1,162 @@
+@font-face{
+	font-family: PT Sans;
+	src: url(fontes/PT_Sans-Web-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+    background-image: linear-gradient(rgb(140,140,140), rgb(20,20,20));
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.pagina{
+	display: table;
+    text-align: center;
+    height: 100vh;
+}
+
+.login{
+	width: 90%;
+	display: block;
+	margin-top: 100px;
+	padding: 1.2rem;
+	background-color: yellow;
+  	vertical-align: middle;
+  	box-shadow: 0px 10px rgba(0,0,0,0.2);
+  	border-radius: 1.2rem;
+}
+
+.grid-imagens {
+	width: 100%;
+	margin: auto;
+	height: 50px;
+	text-align: center;
+	display: block;
+}
+
+.imagens {
+	width: 45%;
+	height: inherit;
+}
+
+.imagem-oficina-web {
+	float: left;
+	background: url("../Imagens/logo_oficina_web.png") no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.imagem-ratinho-logo {
+	float: right;
+	background: url("../Imagens/ratinho10.png") no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.form-login {
+	width: 100%;
+}
+
+.form-login p {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.botao{
+	margin: 1.4rem auto auto auto;
+	background-color: rgb(77,77,77);
+	color: white;
+	font-size: 1.2rem;
+	width: 100% !important;
+}
+
+.botao:hover{
+	transition: 0.5;
+	background-color: rgb(50,205,50);
+	color: rgb(47,79,79);
+}
+
+.border hr{
+	border: 2px solid black !important;
+}
+
+label {
+	width: 100%;
+	text-align: left;
+}
+
+.fundo{
+	background-color: rgba(255, 255, 0, 0.6);
+}
+
+.camposLogin{
+	width: 100%;
+	font-size: 1.2rem;
+	background-color: black;
+	color: rgb(220,220,220);
+}
+
+.camposLogin:focus{
+	background-color: rgb(50,50,50);
+	color: rgb(220,220,220);
+}
+
+@media screen and (min-width: 768px) {
+	label {
+		width: 75%;
+	}
+
+	.imagem-oficina-web {
+		background-size: 75%;
+
+	}
+
+	.imagem-ratinho-logo {
+		background-size: 75%;
+	}
+
+	.grid-imagens {
+
+	}
+}		width: 80%;
+
+
+@media screen and (min-width: 992px) {
+	label {
+		width: 55%;
+	}
+
+	.imagem-oficina-web {
+		background-size: 65%;
+	}
+
+	.imagem-ratinho-logo {
+		background-size: 65%;
+	}
+
+	.grid-imagens {
+		width: 70%;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	label {
+		width: 55%;
+	}
+
+	.imagem-oficina-web {
+		background-size: 60%;
+	}
+
+	.imagem-ratinho-logo {
+		background-size: 60%;
+	}
+
+	.grid-imagens {
+		width: 60%;
+	}
+}

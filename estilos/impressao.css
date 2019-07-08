@@ -1,0 +1,36 @@
+*{
+	margin: 0; padding: 0;
+}
+
+@font-face{
+	font-family: PT Sans;
+	src: url(fontes/PT_Sans-Web-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@page {
+	margin: 1.25cm;
+}
+
+.pagina{
+	width: 100%;
+	background-color: none;
+	font-family: 'PT Sans', 'sans-serif';
+}
+
+.print {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	font-size: 0.75rem;
+}
+
+.tabela{
+	width: 100%;
+	margin: auto;
+}
+
+.no-print{
+	display: none;
+}

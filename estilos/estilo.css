@@ -1,0 +1,113 @@
+@font-face{
+	font-family: PT Sans;
+	src: url(fontes/PT_Sans-Web-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	/*display: flex;
+    min-height: 100vh;
+    flex-direction: column;*/
+    background-image: linear-gradient(rgb(220,220,220), rgb(0,0,0));
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.border hr{
+	border: 2px solid black !important;
+}
+
+li{
+	font-size: 1.5rem;
+}
+
+li:hover{
+	font-weight: bold;
+}
+
+.grafico{
+	background-color: rgb(30, 30, 30);
+	color: black;
+	border-radius: 50rem;
+	padding: 1rem;
+}
+
+.textocabecalho{
+	background-color: black;
+	color: rgb(220, 220, 220);
+	border-radius: 3rem;
+}
+
+.fundo{
+	background-color: yellow;
+}
+
+.dashboard{
+	font-size: 3rem !important; 
+	background-color: black;
+	border-radius: 1rem;
+	color: rgb(220,220,220);
+	margin: 1%;
+	padding: 1%;
+	width: 49%;
+	margin: auto;
+}
+
+.dashboard p {
+	margin: 0;
+}
+
+.campoDashboard{
+	color: yellow;
+	font-weight: bolder;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.2;
+  color: gray;
+}
+
+.menu{
+	background-color: rgb(80,80,80);
+}
+
+.menu a{
+	color: white;
+}
+
+@media screen and (max-width: 900px){
+	.dashboard, h5 {
+		font-size: 1rem !important;
+	}
+	.container{
+		width: 100% !important;
+		margin: auto;
+		padding: 1rem;
+		border-radius: 2rem;
+	}
+
+	label{
+		width: 100%;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 901px){
+	.dashboard, h5 {
+		font-size: 1.4rem !important;
+	}
+	.container{
+		width: 100% !important;
+		margin: auto;
+		padding: 1rem;
+		border-radius: 2rem;
+	}
+
+ @media print {
+ 	
+ }
+}
