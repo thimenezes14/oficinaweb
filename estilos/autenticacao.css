@@ -119,9 +119,9 @@ label {
 	}
 
 	.grid-imagens {
-
+		width: 80%;
 	}
-}		width: 80%;
+}
 
 
 @media screen and (min-width: 992px) {
